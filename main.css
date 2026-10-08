@@ -5,7 +5,7 @@ body {
 
 .wrapper{
   background-color: white;
-  width: 600px;
+  max-width: 600px;
   margin-left: auto;
   margin-right: auto;
   border: 10px solid #cccccc;
@@ -23,8 +23,8 @@ header {
 header h1 {
   font-size: 175%;
   border-bottom: 1px solid black;
-  padding-bottom: .5rem;
-  margin-bottom: .5rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 header h2 {
@@ -40,14 +40,14 @@ main {
 }
 
 main li {
-  margin: 0 0 .75rem 1.5rem;
+  margin: 0 0 1rem 2rem;
 }
 
 .signature {
   text-align: right;
 }
 
-.signature {
+.signature i {
     font-size: 140%;
     font-family: cursive;
 }
